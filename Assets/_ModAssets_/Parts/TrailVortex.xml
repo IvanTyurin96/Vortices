@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="TrailVortex">
+  <PartType id="Mod_Vortices_TrailVortex" name="TrailVortex" modPrefabPath="Assets/_ModAssets_/Parts/TrailVortex.prefab" mass="10" health="100" damageDisconnect="true" sharesRigidBody="true" combineMeshes="false" disconnectForce="10" underwaterDragScalar="30" defaultMaterials="0,0,0,0">
+    <Modifiers>
+      <ModModifier id="Vortices_TrailVortex" type="TrailVortex, Vortices-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <DefaultState VisibleInDesigner="true" Size="1" Length="1" Speed="1" Emission="1" RandomAngleMultiplier="1" RandomLengthMultiplier="1" MaxParticles="3000" Opacity="1" GrowStartVisibilityAOA="5" GrowEndVisibilityAOA="10" FadeStartVisibilityAOA="20" FadeEndVisibilityAOA="45" MinVisibilitySpeed="100" MaxVisibilitySpeed="150" VisibleForNegativeAngleOfAttack="true" />
+      </ModModifier>
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint adaptiveIgnore="false" a="1111" allowRotation="true" display="false" displayWhenDragged="true" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="0,0,1" position="0,0,0" />
+    </AttachPoints>
+  </PartType>
+  <DesignerPart name="TrailVortex" category="Vortices" description="" icon="Assets/Sprites/Torus.png" categoryIcon="Assets/Sprites/Smoke.png">
+    <Assembly>
+      <Parts>
+        <Part id="1" partType="Mod_Vortices_TrailVortex" position="0,0,0" rotation="0,0,0" />
+      </Parts>
+    </Assembly>
+  </DesignerPart>
+</Part>

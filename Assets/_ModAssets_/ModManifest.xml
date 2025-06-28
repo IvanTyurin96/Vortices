@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="7cc17913-d6cd-4708-9917-54c964985897">
+  <Mod name="Vortices" author="MOPCKOE_DNISHE" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2025-06-28T12:28:32.2319167Z" apiVersion="1.0.0.0" description="">
+    <Steam title="Vortices" visibility="Public" previewPath="Assets\SteamWorkshop\ModPreview.jpg" language="English" tags="">
+      <description>Description: https://www.simpleplanes.com/Mods/View/2115014/Vortices</description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="LerxVortex" path="Assets/_ModAssets_/Parts/LerxVortex.prefab" />
+      <GameObject name="TrailVortex" path="Assets/_ModAssets_/Parts/TrailVortex.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Materials/LerxVortex.mat" />
+      <Asset path="Assets/Materials/TrailVortex.mat" />
+      <Asset path="Assets/Materials/Yellow.mat" />
+      <Asset path="Assets/Meshes/Pyramid.fbx" />
+      <Asset path="Assets/Sprites/Smoke.png" />
+      <Asset path="Assets/Sprites/Torus.png" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="LerxVortex" shader="Particles/Standard Unlit" />
+      <Material name="TrailVortex" shader="Particles/Standard Unlit" />
+      <Material name="Yellow" shader="Standard" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="Vortices-Assembly-CSharp.dll" path="Assets/_ModAssets_/Vortices-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts>
+          <Part name="LerxVortex" prefabPath="Assets/_ModAssets_/Parts/LerxVortex.prefab" xmlPath="Assets/_ModAssets_/Parts/LerxVortex.xml" />
+          <Part name="TrailVortex" prefabPath="Assets/_ModAssets_/Parts/TrailVortex.prefab" xmlPath="Assets/_ModAssets_/Parts/TrailVortex.xml" />
+        </Parts>
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>

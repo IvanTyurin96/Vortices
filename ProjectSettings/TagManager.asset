@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - dirt
+  - MainLights
+  - OrthoLights
+  - DynamicObject
+  - Mod Tag 1
+  - Mod Tag 2
+  - Mod Tag 3
+  - Mod Tag 4
+  - Mod Tag 5
+  - Mod Tag 6
+  - Mod Tag 7
+  - Mod Tag 8
+  - Mod Tag 9
+  - Mod Tag 10
+  - Mod Tag 11
+  - Mod Tag 12
+  - Mod Tag 13
+  - Mod Tag 14
+  - Mod Tag 15
+  - Mod Tag 16
+  - Mod Tag 17
+  - Mod Tag 18
+  - Mod Tag 19
+  - Mod Tag 20
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - AttachSurface
+  - GUI
+  - AdjustmentGizmos
+  - AdjustmentPlanes
+  - Attach Point Layer Start
+  - Attach Point Layer 1
+  - Attach Point Layer 2
+  - Attach Point Layer 3
+  - Attach Point Layer 4
+  - Attach Point Layer End
+  - Attach Point Layer Wing Surface
+  - Explosion
+  - Terrain
+  - Aircraft
+  - Overlay
+  - CarrierDeck
+  - AircraftCollisionOnly
+  - AircraftCollisionNone
+  - 
+  - 
+  - Mod Layer 1
+  - Mod Layer 2
+  - Mod Layer 3
+  - Background
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
